@@ -1,0 +1,11 @@
+<h1>Stupid Coaching</h1>
+<div class="blockquote border-start border-3 border-secondary ps-3 mb-4 ms-4">
+  <p class="mb-3" ><%= @question  %></p>
+  <p style="font-style: italic;" class="blockquote-footer">You</p>
+</div>
+<div class="blockquote border-start border-3 border-secondary ps-3 mb-4 ms-4 bg-warning-subtle">
+  <p style="font-weight: bold;"><%= @answer  %></p>
+  <p style="font-style: italic;" class="blockquote-footer">Coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "ms-3 btn btn-primary" %>
